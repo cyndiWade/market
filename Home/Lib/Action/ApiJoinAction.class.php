@@ -166,7 +166,7 @@ class ApiJoinAction extends ApiBaseAction {
 	//获取筛选数据
 	public function get_result () {
 		header('Content-Type:text/html;charset=utf-8');
-		
+
 		//$lng = 121.505665;
 		//$lat = 31.241402;
 		
@@ -190,7 +190,7 @@ class ApiJoinAction extends ApiBaseAction {
 
 		//获取边界值，用来匹配范围内经纬度数据
 		$squares = _SquarePoint($lng,$lat,$distance);		
-			
+
 		//去数据库匹配，在此范围内的经纬度数据	
 		$map['lat'] = array(
 			array('neq',0),		//纬度不等于0
@@ -205,7 +205,7 @@ class ApiJoinAction extends ApiBaseAction {
 		//去数据库查找对应的数据
 		$purview = $Join->field('id,store_name,trade,estate,draw,lng,lat,address,store_phone,city,start_business,classification,official,store_pic')->where($map)->select();	
 		if (empty($purview)) parent::callback(C('STATUS_NOT_DATA'),'没有数据');
-		
+				
 		$store_ids = array();	//保存店铺图片id
 		//计算当前经纬度，与匹配到的经纬之间的距离。单位为km
 		foreach ($purview AS $key=>$val) {
@@ -213,11 +213,11 @@ class ApiJoinAction extends ApiBaseAction {
 			array_push($store_ids,$val['store_pic']);			//取得店铺的图片
 		}
 		
+		
 		//去文件表中取得店铺的图片地址信息
 		$store_ids = implode(',',$store_ids);
 		$store_pics = $File->get_store_pic($store_ids);		//图片信息
 		$store_pics = regroupKey($store_pics,'id');
-		
 		//组合图片访问地址
 		parent::public_file_dir($store_pics,'file_address','images/');
 		//对应商铺表中图片id指向的图片地址
@@ -228,25 +228,25 @@ class ApiJoinAction extends ApiBaseAction {
 		
 		//按照距离由近到远排序，
 		$purview = quickSort($purview,'distance');
-		
+	
 		//去openfire服务器，获取用户在线状态
-		$host = C('OPEN_FIRE.host');		//域名地址
-		foreach ($purview AS $key=>$val) {
-			$purview[$key]['distance'] .= 'Km';		//添加KM字符	
-			$purview[$key]['shop_jid'] = empty($val['store_phone']) ? '' : $val['store_phone'].'@'.C('OPEN_FIRE.host');		//添加店铺xmpp账号
+// 		$host = C('OPEN_FIRE.host');		//域名地址
+// 		foreach ($purview AS $key=>$val) {
+// 			$purview[$key]['distance'] .= 'Km';		//添加KM字符	
+// 			$purview[$key]['shop_jid'] = empty($val['store_phone']) ? '' : $val['store_phone'].'@'.C('OPEN_FIRE.host');		//添加店铺xmpp账号
 
-			$presence = simplexml_load_file('http://'.$host.':9090/plugins/presence/status?jid='.$val['store_phone'].'@'.$host.'&type=text');
-			if (!empty($presence)) {
-				if ($presence->priority < 1) {
-					//离线
-					$purview[$key]['priority'] = 'unavailable';
-				} else {
-					//在线
-					$purview[$key]['priority'] = 'available';
-				}	
+// 			$presence = simplexml_load_file('http://'.$host.':9090/plugins/presence/status?jid='.$val['store_phone'].'@'.$host.'&type=text');
+// 			if (!empty($presence)) {
+// 				if ($presence->priority < 1) {
+// 					//离线
+// 					$purview[$key]['priority'] = 'unavailable';
+// 				} else {
+// 					//在线
+// 					$purview[$key]['priority'] = 'available';
+// 				}	
 				
-			}
-			$presence = NULL;	//销毁对象
+// 			}
+// 			$presence = NULL;	//销毁对象
 			 
 			
 			/**
@@ -258,7 +258,7 @@ class ApiJoinAction extends ApiBaseAction {
 			}
 			 */
 			
-		}
+//		}
 
 		//输出给客户端
 		parent::callback(C('STATUS_SUCCESS'),'获取成功',$purview);
