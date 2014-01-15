@@ -8,7 +8,7 @@ return array (
 	'DB_NAME'               => 'lehuo',      
 	'DB_USER'               => 'root',    
 	'DB_PWD'                => '514591',  
-	'DB_PORT'               => '3306',  
+	'DB_PORT'               => '3306', 
 	'DB_PREFIX'             => 'lh_',  
     'DB_FIELDTYPE_CHECK'    => false,    
     'DB_FIELDS_CACHE'       => true,       
