@@ -1,6 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<<<<<<< HEAD
 		<meta charset="utf-8"/>
 	<title>后台管理系统</title>
 	
@@ -44,6 +45,51 @@
 	    $(function(){
 	        $('.column').equalHeight();
 	    });
+=======
+		<meta charset="utf-8"/>
+	<title>乐活后台管理系统</title>
+	
+	<link rel="stylesheet" href="<?php echo (APP_PATH); ?>Public/css/layout.css" type="text/css" media="screen" />
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<script src="<?php echo (APP_PATH); ?>Public/js/jquery-1.5.2.min.js" type="text/javascript"></script>
+	<script src="<?php echo (APP_PATH); ?>Public/js/hideshow.js" type="text/javascript"></script>
+	<script src="<?php echo (APP_PATH); ?>Public/js/jquery.tablesorter.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="<?php echo (APP_PATH); ?>Public/js/jquery.equalHeight.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() 
+    	{ 
+      	  $(".tablesorter").tablesorter(); 
+   	 } 
+	);
+	$(document).ready(function() {
+
+	//When page loads...
+	$(".tab_content").hide(); //Hide all content
+	$("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	$(".tab_content:first").show(); //Show first tab content
+
+	//On Click Event
+	$("ul.tabs li").click(function() {
+
+		$("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+
+		var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active ID content
+		return false;
+	});
+
+	});
+	    </script>
+	    <script type="text/javascript">
+	    $(function(){
+	        $('.column').equalHeight();
+	    });
+>>>>>>> 875753ed9bff50cc845fe9ec340485710b57dc3a
 	</script>
 	 
 	<style type="text/css">
@@ -88,6 +134,7 @@
 
 <body>
 
+<<<<<<< HEAD
 		<header id="header">
 		<hgroup>
 			<h1 class="site_title"><a href="index.html">后台管理系统</a></h1>
@@ -120,6 +167,40 @@
 			<li class="icn_security"><a href="?s=/HtmlJoin/index">商铺列表</a></li>
 			<li class="icn_settings"><a href="?s=/HtmlJoin/edit">添加商铺</a></li>
 		</ul>
+=======
+		<header id="header">
+		<hgroup>
+			<h1 class="site_title"><a href="index.html">乐活后台管理系统</a></h1>
+			<h2 class="section_title"> </h2><div class="btn_view_site"><a href="http://www.medialoot.com"> </a></div>
+		</hgroup>
+	</header> <!-- end of header bar -->
+	
+	<section id="secondary_bar">
+		<div class="user">
+			<p>管理员</p>
+			<!-- <a class="logout_user" href="#" title="Logout">Logout</a> -->
+		</div>
+		<div class="breadcrumbs_container">
+			<!-- 
+			<article class="breadcrumbs">
+				<a href="index.html">Website Admin</a> 
+				<div class="breadcrumb_divider"></div> 
+				<a class="current">Dashboard</a>
+			</article>
+			-->
+		</div>
+	</section><!-- end of secondary bar -->
+	
+	
+
+	<aside id="sidebar" class="column">
+		
+		<h3>系统管理</h3>
+		<ul class="toggle">
+			<li class="icn_security"><a href="?s=/HtmlJoin/index">商铺列表</a></li>
+			<li class="icn_settings"><a href="?s=/HtmlJoin/edit">添加商铺</a></li>
+		</ul>
+>>>>>>> 875753ed9bff50cc845fe9ec340485710b57dc3a
 	</aside><!-- end of sidebar -->
 	
 	<!-- 内容主体 -->

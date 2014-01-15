@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [ 2013-09-05T12:24:15+08:00 ] 127.0.0.1 /lehuo/
 INFO: [ app_begin ] --START--
 INFO: Run ReadHtmlCache Behavior [ RunTime:0.001121s ]
@@ -32,3 +33,39 @@ INFO: [ view_end ] --START--
 INFO: Run ShowPageTrace Behavior [ RunTime:0.000858s ]
 INFO: [ view_end ] --END-- [ RunTime:0.000933s ]
 
+=======
+[ 2013-09-05T12:24:15+08:00 ] 127.0.0.1 /lehuo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001230s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.020821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020958s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001001s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000939s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000848s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001042s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004055s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2013-09-05T13:49:30+08:00 ] 192.168.1.7 /lehuo/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.001743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001840s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000646s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000704s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000578s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002915s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000858s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000933s ]
+
+>>>>>>> 875753ed9bff50cc845fe9ec340485710b57dc3a

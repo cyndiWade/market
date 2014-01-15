@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [ 2014-01-15T07:54:48+08:00 ] 114.81.247.49 /market/index.php?s=/ApiJoin/get_result
 INFO: [ route_check ] --START--
 INFO: CheckRoute Behavior ::run [ RunTime:0.000494s ]
@@ -2336,3 +2337,790 @@ NOTIC: [8] Undefined index: 14 /web/www/market/Home/Lib/Action/ApiJoinAction.cla
 NOTIC: [8] Undefined index: 14 /web/www/market/Home/Lib/Action/ApiJoinAction.class.php ç¬¬ 225 è¡Œ.
 NOTIC: [8] Undefined index: 15 /web/www/market/Home/Lib/Action/ApiJoinAction.class.php ç¬¬ 225 è¡Œ.
 
+=======
+[ 2014-01-15T14:03:40+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001074s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.073579s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.033069s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.037758s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.022514s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=13761951734@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=13712345678@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58405921@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58772600@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58767842@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58776562%20400-820@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-65418151@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=13917876491@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=63553980@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-65011933@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-22817014@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63240090@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58350705@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=58362233@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-51025999@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-60846800@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-26010088@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-53082938@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=%20021-63403006@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63841878@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63860606%206386060@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63723500@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-36398123@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63682366%206368237@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63848888@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63457652@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-35110865@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-61570800@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+
+[ 2014-01-15T14:06:02+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001135s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.004188s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.002983s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001291s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000978s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=13761951734@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=13712345678@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58405921@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58772600@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58767842@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58776562%20400-820@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-65418151@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=13917876491@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=63553980@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-65011933@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-22817014@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63240090@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58350705@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=58362233@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-51025999@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-60846800@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-26010088@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-53082938@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=%20021-63403006@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63841878@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63860606%206386060@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63723500@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-36398123@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63682366%206368237@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63848888@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63457652@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-35110865@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-61570800@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+
+[ 2014-01-15T14:06:02+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001143s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+
+[ 2014-01-15T14:06:02+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001976s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002183s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+
+[ 2014-01-15T14:06:04+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001471s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001629s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+
+[ 2014-01-15T14:06:05+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+
+[ 2014-01-15T14:06:10+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001053s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001168s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+
+[ 2014-01-15T14:06:11+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001580s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+
+[ 2014-01-15T14:06:54+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001539s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.005429s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.003073s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+
+[ 2014-01-15T14:07:11+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001122s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.004386s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.003669s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001711s ]
+
+[ 2014-01-15T14:08:17+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.004158s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.003572s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001206s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000813s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=13761951734@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=13712345678@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58405921@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58772600@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58767842@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58776562%20400-820@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-65418151@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=13917876491@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=63553980@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-65011933@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-22817014@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63240090@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-58350705@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=58362233@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-51025999@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-60846800@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-26010088@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-53082938@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=%20021-63403006@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63841878@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63860606%206386060@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63723500@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-36398123@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63682366%206368237@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63848888@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-63457652@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-35110865@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file(http://...@192.168.1.102&amp;type=text) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+NOTIC: [2] simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://192.168.1.102:9090/plugins/presence/status?jid=021-61570800@192.168.1.102&amp;type=text&quot; C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 238 è¡Œ.
+
+[ 2014-01-15T14:08:17+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001409s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.007160s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.006136s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001326s ]
+
+[ 2014-01-15T14:08:17+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.003676s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.002828s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001114s ]
+
+[ 2014-01-15T14:08:17+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002382s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002619s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002030s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.003190s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.003172s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001445s ]
+
+[ 2014-01-15T14:08:38+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001163s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.017781s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.002839s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001103s ]
+
+[ 2014-01-15T14:08:39+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000943s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.003373s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.002860s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001132s ]
+
+[ 2014-01-15T14:08:44+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.013304s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.003497s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001442s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000879s ]
+
+[ 2014-01-15T14:08:48+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.004105s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.003190s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001331s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000987s ]
+
+[ 2014-01-15T14:09:06+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.003870s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.003510s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001110s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000851s ]
+
+[ 2014-01-15T14:09:06+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001210s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.004129s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.002933s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001367s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000931s ]
+
+[ 2014-01-15T14:09:15+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001131s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.005445s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.003675s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001441s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.001209s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+
+[ 2014-01-15T14:09:57+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001126s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.003522s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.002924s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.002015s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000860s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+
+[ 2014-01-15T14:24:41+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001256s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001377s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.004916s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.004052s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001176s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000866s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+
+[ 2014-01-15T14:54:25+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.007630s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.004478s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001276s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.001326s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+
+[ 2014-01-15T15:05:49+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001684s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001887s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.004294s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.003299s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001406s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000820s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+
+[ 2014-01-15T15:05:52+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001268s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.003713s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.003262s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001753s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000948s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+
+[ 2014-01-15T15:06:25+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001238s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.003650s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.002873s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001188s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000808s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+
+[ 2014-01-15T15:21:16+08:00 ] 192.168.1.102 /market/index.php?s=/ApiJoin/get_result/&distance=100&lng=121.505665&lat=31.241402
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000944s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001087s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.004430s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.004378s ]
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+NOTIC: å»ºè®®ä½¿ç”¨Iæ–¹æ³•æ›¿ä»£_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lng` > 120.45381023183) AND (`lng` < 122.55751976817)  ) AND ( (`lat` <> 0) AND (`lat` > 30.342080394081) AND (`lat` < 32.140723605919)  )  [ RunTime:0.001589s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('137','141','143','149','151','153','159','161','165','167','171','181','183','187','189','193','215','217','221','223','227','229','233','237','239','243','247','257','261','265','269','271','277','279','283','285','289','293','297','301','303','305','309','313','315','319','323','327','333','339','343','347','351','353','355','361','365','415','417','421','425','427','429','431','433','435','437','439','441','443','445','447','449','451','453','457','459','473','479','483','485','487','489','491','493','497','501','503','507','513','515','519','523','529','537','543','545','551','555','557','563','567','573','577','589','591','593','595','597','617','627','629','637','641','643','645','649','657','659','661','669','681','685','689','695','703','705','709','717','723','731','1267') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000868s ]
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 14 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 15 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+NOTIC: [8] Undefined index: 127 C:\wamp\www\market\Home\Lib\Action\ApiJoinAction.class.php ç¬¬ 226 è¡Œ.
+
+>>>>>>> 875753ed9bff50cc845fe9ec340485710b57dc3a
