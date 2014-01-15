@@ -1,0 +1,75 @@
+[ 2014-01-03T13:07:35+08:00 ] 220.181.38.114 /market/index.php?s=/ApiJoin/get_result
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000506s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000549s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lat` <> 0) AND (`lat` > -0.89932160591873) AND (`lat` < 0.89932160591873)  ) AND ( (`lng` > -0.89932160591873) AND (`lng` < 0.89932160591873)  )  [ RunTime:0.000340s ]
+
+[ 2014-01-03T13:08:18+08:00 ] 220.181.38.114 /market/index.php?s=/ApiJoin/get_result
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000668s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lat` <> 0) AND (`lat` > -0.89932160591873) AND (`lat` < 0.89932160591873)  ) AND ( (`lng` > -0.89932160591873) AND (`lng` < 0.89932160591873)  )  [ RunTime:0.000518s ]
+
+[ 2014-01-03T13:08:31+08:00 ] 220.181.38.114 /market/index.php?s=/ApiJoin/get_result
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000697s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lat` <> 0) AND (`lat` > -0.89932160591873) AND (`lat` < 0.89932160591873)  ) AND ( (`lng` > -0.89932160591873) AND (`lng` < 0.89932160591873)  )  [ RunTime:0.000511s ]
+
+[ 2014-01-03T13:11:13+08:00 ] 116.226.217.58 /market/index.php?s=/ApiDiscount/discount_list
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `lh_city` [ RunTime:0.000711s ]
+SQL: SELECT d.store_id,d.content,f.file_address FROM lh_discount AS d LEFT JOIN lh_file AS f ON d.pic_id = f.id WHERE ( d.city_id = '2' ) AND ( d.status = 0 ) AND ( f.type = 3 )  [ RunTime:0.000586s ]
+
+[ 2014-01-03T14:08:50+08:00 ] 172.21.8.117 /market/index.php?s=/ApiJoin/get_result
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000478s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000703s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lat` <> 0) AND (`lat` > -0.89932160591873) AND (`lat` < 0.89932160591873)  ) AND ( (`lng` > -0.89932160591873) AND (`lng` < 0.89932160591873)  )  [ RunTime:0.000528s ]
+
+[ 2014-01-03T14:33:29+08:00 ] 172.21.8.188 /market/index.php?s=/ApiJoin/get_result
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000709s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( (`lat` <> 0) AND (`lat` > -0.89932160591873) AND (`lat` < 0.89932160591873)  ) AND ( (`lng` > -0.89932160591873) AND (`lng` < 0.89932160591873)  )  [ RunTime:0.000527s ]
+

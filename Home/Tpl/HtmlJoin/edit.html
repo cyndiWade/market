@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<include file="Public:top" />
+	 
+	<style type="text/css">
+		.input_place {
+			width:40%; 
+			
+		}
+		.input_place p {
+			margin:0 0 30px 0;
+		}
+	</style>
+	
+	<script type="text/javascript"src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+	<script type="text/javascript">
+		$(function () {
+			
+			
+			//地图模块
+			(function () { 
+				$('.address_a').blur(function () {
+					codeAddress(this.value);
+				});	
+				 function codeAddress(address)  {      
+					var  geocoder =new google.maps.Geocoder();     
+					 geocoder.geocode({ 'address': address }, function(results, status) {            
+					 	if(status == google.maps.GeocoderStatus.OK)  {
+							//赋值
+							$("input[name='lat']").val(results[0].geometry.location.lat()) ;
+							$("input[name='lng']").val(results[0].geometry.location.lng()) ;
+						 } else {              
+							alert("对不起没有找到此地址:"+ status);       
+							$("input[name='lat']").val('') ;   
+							$("input[name='lng']").val('') ;
+						 }           
+					 });    
+				 } 
+			})();
+		});
+	</script>
+	
+</head>
+
+<body>
+
+	<include file="Public:menu" />
+	
+	<!-- 内容主体 -->
+	<section id="main" class="column">
+		
+<!-- 数据表-->
+		<article class="module width_full">
+			<header><h3>编辑店铺信息</h3></header>
+			
+			<form action="" method="post" accept-charset="utf-8" enctype ="multipart/form-data" >
+				<div class="module_content">
+					
+					<fieldset class="input_place"> 
+						<p><label>店铺名:</label><input type="text" name="store_name" value="{$store_data.store_name}" /></p>
+						<p><label>店主手机:</label><input type="text" name="store_phone" value="{$store_data.store_phone}" placeholder="请确认填写的号码是真实的" /></p>
+						<p><label>所属行业:</label>
+							<select name="trade">
+								<volist name="trade" id="vo">
+									<if condition="($key eq $store_data['trade'])">
+										<option value="{$key}" selected="selected">{$vo}</option>
+									<else />
+										<option value="{$key}">{$vo}</option>
+									</if>	
+									
+								</volist>
+							</select>
+						</p>
+						<p><label>商业圈:</label><input type="text" name="estate" value="{$store_data.estate}" /></p>
+						<p><label>城市:</label><input type="text" name="city" value="{$store_data.city}" placeholder="如：广州市"/></p>
+						<p><label>详细地址:</label><input type="text" name="address" value="{$store_data.address}" class="address_a" placeholder="如：上海市，普陀区，中山北路2020号" /></p>
+						<p><label>经度:</label><input type="text" name="lng" value="{$store_data.lng}" placeholder="输入详细地址，自动获取（经度）"/></p>
+						<p><label>纬度:</label><input type="text" name="lat" value="{$store_data.lat}" placeholder="输入详细地址，自动获取（纬度）"/></p>
+						<p><label>开业日期:</label><input type="text" name="start_business" value="{$store_data.start_business}" /></p>
+						<p><label>店铺属性:</label>
+							<if condition="($store_data['classification'] eq 1)">
+								<assign name="checked1" value="checked=checked" />
+							<elseif condition="($store_data['classification'] eq  2)" />
+								<assign name="checked2" value="checked=checked" />	
+							</if>
+							<input type="radio" name="classification" value="1" {$checked1}>总店　
+							<input type="radio" name="classification" value="2" {$checked2}>分店
+						</p>
+						<p><label>负责人:</label><input type="text" name="official" value="{$store_data.official}" /></p>
+						<p><label>人均消费:</label><input type="text" name="draw" value="{$store_data.draw}" /></p>		
+						<p><label>店铺图片:</label><input type="file" name="store_pic"  /></p>
+						<p><label>营业执照图片:</label><input type="file" name="licence_pic"  /></p>	
+
+						<p><label>简介-140个字</label>
+						<textarea rows="12" name="introduce">{$store_data.introduce}</textarea>
+													
+					</fieldset>
+					<input type="submit" value="提交" class="alt_btn">
+					<div class="clear"></div>
+				
+				</div>
+				</div>
+				
+			</form>
+			
+		</article><!-- end of post new article -->
+		
+	
+		
+		<div class="clear"></div>
+		
+		
+	
+		<div class="spacer"></div>
+	</section>
+
+
+</body>
+
+</html>

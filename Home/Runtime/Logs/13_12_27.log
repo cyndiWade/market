@@ -1,0 +1,1032 @@
+[ 2013-12-27T14:18:30+08:00 ] 116.231.99.166 /market/index.php?s=/ApiDiscount/discount_list
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000469s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `lh_city` [ RunTime:0.000710s ]
+SQL: SELECT d.store_id,d.content,f.file_address FROM lh_discount AS d LEFT JOIN lh_file AS f ON d.pic_id = f.id WHERE ( d.city_id = '2' ) AND ( d.status = 0 ) AND ( f.type = 3 )  [ RunTime:0.001920s ]
+
+[ 2013-12-27T14:18:58+08:00 ] 116.231.99.166 /market/index.php?s=/ApiDiscount/discount_list
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `lh_city` [ RunTime:0.001011s ]
+SQL: SELECT d.store_id,d.content,f.file_address FROM lh_discount AS d LEFT JOIN lh_file AS f ON d.pic_id = f.id WHERE ( d.city_id = '2' ) AND ( d.status = 0 ) AND ( f.type = 3 )  [ RunTime:0.000405s ]
+
+[ 2013-12-27T14:19:28+08:00 ] 116.231.99.166 /market/index.php?s=/ApiDiscount/discount_list
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `lh_city` [ RunTime:0.000708s ]
+SQL: SELECT d.store_id,d.content,f.file_address FROM lh_discount AS d LEFT JOIN lh_file AS f ON d.pic_id = f.id WHERE ( d.city_id = '2' ) AND ( d.status = 0 ) AND ( f.type = 3 )  [ RunTime:0.000404s ]
+
+[ 2013-12-27T15:05:48+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/get_result&trade=11&lng=121.518586&lat=31.246028&distance=10000
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000668s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( `trade` = '11' ) AND ( (`lng` > 10.019317499388) AND (`lng` < 233.01785450061)  ) AND ( (`lat` <> 0) AND (`lat` > -58.686132591873) AND (`lat` < 121.17818859187)  )  [ RunTime:0.001480s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('479','501','503','507','509','511','513','515','517','519','521','523','525','531','533','539','541','547','549','551','875','961','1049','1051','1055','1057','1059','1063','1065','1161','1173','1191','1195','1205','1207','1213','1215','1219','1595','1651','1681') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000791s ]
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-65432351@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-28903929@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-62667996%206227971@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-61075775@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-54012177@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-58474570@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-64378188@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-56141487@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-51752333@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-52688822%205268787@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=4008314159@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-85854508@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-65001233@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65538558@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65124600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%2085118100-162@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-64642365@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-85325068@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-84150958@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-84760398@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-84237930%20842356@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-89337226@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38861088@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38193600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89338218@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38336338@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83839090@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83601969@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83187967@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-62608999@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-25866999%20258663@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%200755-83246874%2083254@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83063668@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89440008@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83323709@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-23591632@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-29410350@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26711177%20828315@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26851119@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=13590175408@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-63054473@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+
+[ 2013-12-27T15:05:58+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/get_result&trade=11&lng=121.518586&lat=31.246028&distance=10000
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000728s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( `trade` = '11' ) AND ( (`lng` > 10.019317499388) AND (`lng` < 233.01785450061)  ) AND ( (`lat` <> 0) AND (`lat` > -58.686132591873) AND (`lat` < 121.17818859187)  )  [ RunTime:0.001527s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('479','501','503','507','509','511','513','515','517','519','521','523','525','531','533','539','541','547','549','551','875','961','1049','1051','1055','1057','1059','1063','1065','1161','1173','1191','1195','1205','1207','1213','1215','1219','1595','1651','1681') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000739s ]
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-65432351@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-28903929@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-62667996%206227971@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-61075775@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-54012177@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-58474570@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-64378188@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-56141487@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-51752333@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-52688822%205268787@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=4008314159@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-85854508@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-65001233@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65538558@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65124600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%2085118100-162@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-64642365@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-85325068@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-84150958@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-84760398@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-84237930%20842356@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-89337226@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38861088@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38193600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89338218@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38336338@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83839090@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83601969@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83187967@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-62608999@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-25866999%20258663@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%200755-83246874%2083254@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83063668@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89440008@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83323709@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-23591632@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-29410350@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26711177%20828315@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26851119@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=13590175408@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-63054473@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+
+[ 2013-12-27T15:05:59+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/get_result&trade=11&lng=121.518586&lat=31.246028&distance=10000
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000743s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( `trade` = '11' ) AND ( (`lng` > 10.019317499388) AND (`lng` < 233.01785450061)  ) AND ( (`lat` <> 0) AND (`lat` > -58.686132591873) AND (`lat` < 121.17818859187)  )  [ RunTime:0.001492s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('479','501','503','507','509','511','513','515','517','519','521','523','525','531','533','539','541','547','549','551','875','961','1049','1051','1055','1057','1059','1063','1065','1161','1173','1191','1195','1205','1207','1213','1215','1219','1595','1651','1681') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000743s ]
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-65432351@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-28903929@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-62667996%206227971@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-61075775@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-54012177@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-58474570@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-64378188@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-56141487@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-51752333@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-52688822%205268787@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=4008314159@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-85854508@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-65001233@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65538558@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65124600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%2085118100-162@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-64642365@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-85325068@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-84150958@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-84760398@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-84237930%20842356@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-89337226@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38861088@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38193600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89338218@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38336338@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83839090@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83601969@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83187967@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-62608999@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-25866999%20258663@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%200755-83246874%2083254@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83063668@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89440008@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83323709@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-23591632@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-29410350@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26711177%20828315@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26851119@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=13590175408@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-63054473@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+
+[ 2013-12-27T15:08:45+08:00 ] 116.231.99.166 /market/index.php?s=/ApiDiscount/discount_list
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000464s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `lh_city` [ RunTime:0.000709s ]
+SQL: SELECT d.store_id,d.content,f.file_address FROM lh_discount AS d LEFT JOIN lh_file AS f ON d.pic_id = f.id WHERE ( d.city_id = '2' ) AND ( d.status = 0 ) AND ( f.type = 3 )  [ RunTime:0.000480s ]
+
+[ 2013-12-27T15:08:59+08:00 ] 116.231.99.166 /market/index.php?s=/ApiDiscount/discount_list
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `lh_city` [ RunTime:0.000702s ]
+SQL: SELECT d.store_id,d.content,f.file_address FROM lh_discount AS d LEFT JOIN lh_file AS f ON d.pic_id = f.id WHERE ( d.city_id = '2' ) AND ( d.status = 0 ) AND ( f.type = 3 )  [ RunTime:0.000452s ]
+
+[ 2013-12-27T15:09:22+08:00 ] 116.231.99.166 /market/index.php?s=/ApiDiscount/discount_list
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `lh_city` [ RunTime:0.000693s ]
+SQL: SELECT d.store_id,d.content,f.file_address FROM lh_discount AS d LEFT JOIN lh_file AS f ON d.pic_id = f.id WHERE ( d.city_id = '2' ) AND ( d.status = 0 ) AND ( f.type = 3 )  [ RunTime:0.000537s ]
+
+[ 2013-12-27T15:17:21+08:00 ] 116.231.99.166 /market/index.php?s=/ApiDiscount/discount_list
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `lh_city` [ RunTime:0.000732s ]
+SQL: SELECT d.store_id,d.content,f.file_address FROM lh_discount AS d LEFT JOIN lh_file AS f ON d.pic_id = f.id WHERE ( d.city_id = '2' ) AND ( d.status = 0 ) AND ( f.type = 3 )  [ RunTime:0.000475s ]
+
+[ 2013-12-27T15:17:22+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/join_info&id=22
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000467s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000949s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT j.store_name,j.trade,j.estate,j.draw,j.lng,j.lat,j.address,j.store_phone,j.city,j.start_business,j.classification,j.official,j.introduce,f.file_address FROM lh_join AS j LEFT JOIN lh_file AS f ON j.store_pic=f.id WHERE ( j.status = 0 ) AND ( j.id = '22' ) LIMIT 1   [ RunTime:0.000490s ]
+
+[ 2013-12-27T15:17:29+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/join_info&id=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000953s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT j.store_name,j.trade,j.estate,j.draw,j.lng,j.lat,j.address,j.store_phone,j.city,j.start_business,j.classification,j.official,j.introduce,f.file_address FROM lh_join AS j LEFT JOIN lh_file AS f ON j.store_pic=f.id WHERE ( j.status = 0 ) AND ( j.id = '5' ) LIMIT 1   [ RunTime:0.000493s ]
+
+[ 2013-12-27T15:17:31+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/join_info&id=21
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000954s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT j.store_name,j.trade,j.estate,j.draw,j.lng,j.lat,j.address,j.store_phone,j.city,j.start_business,j.classification,j.official,j.introduce,f.file_address FROM lh_join AS j LEFT JOIN lh_file AS f ON j.store_pic=f.id WHERE ( j.status = 0 ) AND ( j.id = '21' ) LIMIT 1   [ RunTime:0.000493s ]
+
+[ 2013-12-27T15:17:35+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/join_info&id=21
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000466s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000961s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT j.store_name,j.trade,j.estate,j.draw,j.lng,j.lat,j.address,j.store_phone,j.city,j.start_business,j.classification,j.official,j.introduce,f.file_address FROM lh_join AS j LEFT JOIN lh_file AS f ON j.store_pic=f.id WHERE ( j.status = 0 ) AND ( j.id = '21' ) LIMIT 1   [ RunTime:0.000499s ]
+
+[ 2013-12-27T15:17:39+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/join_info&id=22
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000964s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT j.store_name,j.trade,j.estate,j.draw,j.lng,j.lat,j.address,j.store_phone,j.city,j.start_business,j.classification,j.official,j.introduce,f.file_address FROM lh_join AS j LEFT JOIN lh_file AS f ON j.store_pic=f.id WHERE ( j.status = 0 ) AND ( j.id = '22' ) LIMIT 1   [ RunTime:0.000494s ]
+
+[ 2013-12-27T15:17:43+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/join_info&id=22
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000934s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT j.store_name,j.trade,j.estate,j.draw,j.lng,j.lat,j.address,j.store_phone,j.city,j.start_business,j.classification,j.official,j.introduce,f.file_address FROM lh_join AS j LEFT JOIN lh_file AS f ON j.store_pic=f.id WHERE ( j.status = 0 ) AND ( j.id = '22' ) LIMIT 1   [ RunTime:0.000511s ]
+
+[ 2013-12-27T15:17:46+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/join_info&id=21
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000462s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000934s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT j.store_name,j.trade,j.estate,j.draw,j.lng,j.lat,j.address,j.store_phone,j.city,j.start_business,j.classification,j.official,j.introduce,f.file_address FROM lh_join AS j LEFT JOIN lh_file AS f ON j.store_pic=f.id WHERE ( j.status = 0 ) AND ( j.id = '21' ) LIMIT 1   [ RunTime:0.000513s ]
+
+[ 2013-12-27T15:17:52+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/join_info&id=5
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000965s ]
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT j.store_name,j.trade,j.estate,j.draw,j.lng,j.lat,j.address,j.store_phone,j.city,j.start_business,j.classification,j.official,j.introduce,f.file_address FROM lh_join AS j LEFT JOIN lh_file AS f ON j.store_pic=f.id WHERE ( j.status = 0 ) AND ( j.id = '5' ) LIMIT 1   [ RunTime:0.000770s ]
+
+[ 2013-12-27T15:25:19+08:00 ] 116.231.99.166 /market/index.php?s=/ApiDiscount/discount_list
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `lh_city` [ RunTime:0.000689s ]
+SQL: SELECT d.store_id,d.content,f.file_address FROM lh_discount AS d LEFT JOIN lh_file AS f ON d.pic_id = f.id WHERE ( d.city_id = '2' ) AND ( d.status = 0 ) AND ( f.type = 3 )  [ RunTime:0.000491s ]
+
+[ 2013-12-27T15:54:35+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/get_result&trade=11&lng=121.518806&lat=31.248097&distance=10000
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000468s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.012405s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( `trade` = '11' ) AND ( (`lng` > 10.015849951241) AND (`lng` < 233.02176204876)  ) AND ( (`lat` <> 0) AND (`lat` > -58.684063591873) AND (`lat` < 121.18025759187)  )  [ RunTime:0.004115s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('479','501','503','507','509','511','513','515','517','519','521','523','525','531','533','539','541','547','549','551','875','961','1049','1051','1055','1057','1059','1063','1065','1161','1173','1191','1195','1205','1207','1213','1215','1219','1595','1651','1681') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.001434s ]
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-65432351@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-28903929@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-62667996%206227971@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-61075775@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-54012177@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-58474570@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-64378188@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-56141487@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-51752333@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-52688822%205268787@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=4008314159@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-65001233@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65538558@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-85854508@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65124600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%2085118100-162@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-64642365@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-85325068@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-84150958@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-84760398@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-84237930%20842356@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-89337226@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38861088@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38193600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89338218@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38336338@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83839090@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83601969@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83187967@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-62608999@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-25866999%20258663@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%200755-83246874%2083254@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83063668@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89440008@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83323709@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-23591632@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-29410350@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26711177%20828315@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26851119@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=13590175408@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-63054473@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+
+[ 2013-12-27T15:54:35+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/get_result&trade=11&lng=121.518806&lat=31.248097&distance=10000
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000463s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000674s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( `trade` = '11' ) AND ( (`lng` > 10.015849951241) AND (`lng` < 233.02176204876)  ) AND ( (`lat` <> 0) AND (`lat` > -58.684063591873) AND (`lat` < 121.18025759187)  )  [ RunTime:0.001459s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('479','501','503','507','509','511','513','515','517','519','521','523','525','531','533','539','541','547','549','551','875','961','1049','1051','1055','1057','1059','1063','1065','1161','1173','1191','1195','1205','1207','1213','1215','1219','1595','1651','1681') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000766s ]
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-65432351@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-28903929@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-62667996%206227971@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-61075775@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-54012177@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-58474570@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-64378188@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-56141487@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-51752333@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-52688822%205268787@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=4008314159@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-65001233@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65538558@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-85854508@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65124600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%2085118100-162@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-64642365@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-85325068@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-84150958@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-84760398@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-84237930%20842356@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-89337226@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38861088@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38193600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89338218@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38336338@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83839090@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83601969@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83187967@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-62608999@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-25866999%20258663@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%200755-83246874%2083254@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83063668@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89440008@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83323709@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-23591632@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-29410350@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26711177%20828315@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26851119@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=13590175408@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-63054473@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+
+[ 2013-12-27T15:54:40+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/get_result&trade=11&lng=121.518806&lat=31.248097&distance=10000
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000472s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000965s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000674s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( `trade` = '11' ) AND ( (`lng` > 10.015849951241) AND (`lng` < 233.02176204876)  ) AND ( (`lat` <> 0) AND (`lat` > -58.684063591873) AND (`lat` < 121.18025759187)  )  [ RunTime:0.001506s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('479','501','503','507','509','511','513','515','517','519','521','523','525','531','533','539','541','547','549','551','875','961','1049','1051','1055','1057','1059','1063','1065','1161','1173','1191','1195','1205','1207','1213','1215','1219','1595','1651','1681') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000879s ]
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-65432351@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-28903929@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-62667996%206227971@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-61075775@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-54012177@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-58474570@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-64378188@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-56141487@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-51752333@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-52688822%205268787@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=4008314159@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-65001233@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65538558@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-85854508@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65124600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%2085118100-162@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-64642365@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-85325068@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-84150958@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-84760398@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-84237930%20842356@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-89337226@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38861088@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38193600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89338218@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38336338@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83839090@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83601969@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83187967@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-62608999@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-25866999%20258663@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%200755-83246874%2083254@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83063668@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89440008@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83323709@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-23591632@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-29410350@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26711177%20828315@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26851119@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=13590175408@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-63054473@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+
+[ 2013-12-27T16:03:17+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/get_result&trade=11&lng=121.518586&lat=31.246028&distance=10000
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000718s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( `trade` = '11' ) AND ( (`lng` > 10.019317499388) AND (`lng` < 233.01785450061)  ) AND ( (`lat` <> 0) AND (`lat` > -58.686132591873) AND (`lat` < 121.17818859187)  )  [ RunTime:0.001544s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('479','501','503','507','509','511','513','515','517','519','521','523','525','531','533','539','541','547','549','551','875','961','1049','1051','1055','1057','1059','1063','1065','1161','1173','1191','1195','1205','1207','1213','1215','1219','1595','1651','1681') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000748s ]
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-65432351@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-28903929@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-62667996%206227971@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-61075775@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-54012177@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-58474570@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-64378188@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-56141487@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-51752333@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-52688822%205268787@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=4008314159@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-85854508@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-65001233@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65538558@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65124600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%2085118100-162@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-64642365@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-85325068@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-84150958@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-84760398@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-84237930%20842356@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-89337226@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38861088@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38193600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89338218@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38336338@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83839090@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83601969@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83187967@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-62608999@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-25866999%20258663@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%200755-83246874%2083254@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83063668@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89440008@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83323709@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-23591632@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-29410350@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26711177%20828315@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26851119@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=13590175408@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-63054473@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+
+[ 2013-12-27T16:03:23+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/get_result&trade=11&lng=121.518586&lat=31.246028&distance=10000
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000712s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( `trade` = '11' ) AND ( (`lng` > 10.019317499388) AND (`lng` < 233.01785450061)  ) AND ( (`lat` <> 0) AND (`lat` > -58.686132591873) AND (`lat` < 121.17818859187)  )  [ RunTime:0.001479s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('479','501','503','507','509','511','513','515','517','519','521','523','525','531','533','539','541','547','549','551','875','961','1049','1051','1055','1057','1059','1063','1065','1161','1173','1191','1195','1205','1207','1213','1215','1219','1595','1651','1681') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000861s ]
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-65432351@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-28903929@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-62667996%206227971@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-61075775@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-54012177@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-58474570@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-64378188@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-56141487@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-51752333@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-52688822%205268787@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=4008314159@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-85854508@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-65001233@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65538558@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65124600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%2085118100-162@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-64642365@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-85325068@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-84150958@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-84760398@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-84237930%20842356@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-89337226@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38861088@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38193600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89338218@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38336338@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83839090@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83601969@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83187967@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-62608999@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-25866999%20258663@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%200755-83246874%2083254@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83063668@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89440008@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83323709@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-23591632@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-29410350@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26711177%20828315@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26851119@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=13590175408@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-63054473@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+
+[ 2013-12-27T16:03:28+08:00 ] 116.231.99.166 /market/index.php?s=/ApiJoin/get_result&trade=11&lng=121.518586&lat=31.246028&distance=10000
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000461s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `lh_join` [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `lh_file` [ RunTime:0.000693s ]
+NOTIC: 建议使用I方法替代_get
+NOTIC: 建议使用I方法替代_get
+SQL: SELECT `id`,`store_name`,`trade`,`estate`,`draw`,`lng`,`lat`,`address`,`store_phone`,`city`,`start_business`,`classification`,`official`,`store_pic` FROM `lh_join` WHERE ( `status` = 0 ) AND ( `trade` = '11' ) AND ( (`lng` > 10.019317499388) AND (`lng` < 233.01785450061)  ) AND ( (`lat` <> 0) AND (`lat` > -58.686132591873) AND (`lat` < 121.17818859187)  )  [ RunTime:0.001464s ]
+SQL: SELECT `id`,`file_address` FROM `lh_file` WHERE ( `id` IN ('479','501','503','507','509','511','513','515','517','519','521','523','525','531','533','539','541','547','549','551','875','961','1049','1051','1055','1057','1059','1063','1065','1161','1173','1191','1195','1205','1207','1213','1215','1219','1595','1651','1681') ) AND ( `type` = 1 ) AND ( `status` = 0 )  [ RunTime:0.000752s ]
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-65432351@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-28903929@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-62667996%206227971@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-61075775@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-54012177@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-58474570@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-64378188@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-56141487@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-51752333@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-52688822%205268787@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=4008314159@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-85854508@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-65001233@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65538558@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-65124600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%2085118100-162@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-64642365@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-85325068@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%20010-84150958@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=010-84760398@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-84237930%20842356@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-89337226@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38861088@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38193600@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89338218@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-38336338@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83839090@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83601969@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83187967@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-62608999@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-25866999%20258663@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=%200755-83246874%2083254@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-83063668@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=020-89440008@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-83323709@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-23591632@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-29410350@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26711177%20828315@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=0755-26851119@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=13590175408@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(http://...@yunqiserver.xicp.net&type=text): failed to open stream: Connection timed out /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+NOTIC: [2] simplexml_load_file(): I/O warning : failed to load external entity "http://yunqiserver.xicp.net:9090/plugins/presence/status?jid=021-63054473@yunqiserver.xicp.net&type=text" /web/www/market/Home/Lib/Action/ApiJoinAction.class.php 第 238 行.
+
