@@ -3,7 +3,7 @@
 /**
  * 核心类基础类
  */
-class BaseAction extends Action {
+class BaseAction extends GlobalParameterAction {
 	
 	/**
 	 * 构造方法

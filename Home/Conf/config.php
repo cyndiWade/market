@@ -30,7 +30,7 @@ $system = array(
 		),
 		
 		//客户端加密、解密钥匙
-		'UNLOCAKING_KEY' => 'lehuo',
+		'UNLOCAKING_KEY' => 'yuyuan',
 		
 		//用户类型
 		'ACCOUNT_TYPE' => array (
