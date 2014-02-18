@@ -137,7 +137,7 @@ class ApiJoinAction extends ApiBaseAction {
 		if (!$this->isPost()) {
 			parent::callback(C('STATUS_OTHER'),'非法访问！');
 		}
-		$trade = $this->_get('trade');
+		$trade = $this->_post('trade');
 		if (empty($this->trade[$trade])) parent::callback(C('STATUS_OTHER'),'行业错误！');
 		
 		$join_list = $Join->field('trade,store_name,estate,shop_product,shop_avocation,remarks')->where(array('trade'=>$trade))->select();
