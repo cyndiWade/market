@@ -12,6 +12,26 @@ class ApiJoinAction extends ApiBaseAction {
 	
 	//添加商铺
 	public function join() {
+// 		$Join = M('Join');			//店铺表
+// 		$OldData = M('OldData');	
+// 		$all_old_data = $OldData->select();
+// 		$time = time();
+
+// 		foreach ($all_old_data AS $key=>$val) {
+// 			$Join->trade = mt_rand(1, 13);
+// 			$Join->store_name = $val['shop_name'];
+// 			$Join->estate = $val['shop_number'];
+// 			$Join->shop_product = $val['shop_product'];
+// 			$Join->shop_avocation = $val['shop_avocation'];
+// 			$Join->storey = $val['storey'];
+// 			$Join->remarks = $val['remarks'];
+// 		//	$Join->time = time();
+			
+// 			$Join->add();
+
+// 		}
+		
+// 		exit;
 
 		if ($this->isPost()) {
 			//初始化数据
@@ -110,9 +130,28 @@ class ApiJoinAction extends ApiBaseAction {
 	}
 	
 	
+	public function get_result () {
+		header('Content-Type:text/html;charset=utf-8');
+		$Join = M('Join');				//店铺模型表
+		
+		if (!$this->isPost()) {
+			parent::callback(C('STATUS_OTHER'),'非法访问！');
+		}
+		$trade = $this->_get('trade');
+		if (empty($this->trade[$trade])) parent::callback(C('STATUS_OTHER'),'行业错误！');
+		
+		$join_list = $Join->field('trade,store_name,estate,shop_product,shop_avocation,remarks')->where(array('trade'=>$trade))->select();
+		if ($join_list == true) {
+			parent::callback(C('STATUS_SUCCESS'),'获取成功！',$join_list);
+		} else {
+			parent::callback(C('STATUS_NOT_DATA'),'暂无数据无数据！');
+		}
+		
+	}
+	
 	
 	//获取筛选数据
-	public function get_result () {
+	public function get_result_bak () {
 		header('Content-Type:text/html;charset=utf-8');
 		
 		//$lng = 121.505665;

@@ -2,7 +2,7 @@
 <html>
 <head>
 		<meta charset="utf-8"/>
-	<title>乐活后台管理系统</title>
+	<title>后台管理系统</title>
 	
 	<link rel="stylesheet" href="<?php echo (APP_PATH); ?>Public/css/layout.css" type="text/css" media="screen" />
 	<!--[if lt IE 9]>
@@ -59,7 +59,7 @@
 
 		<header id="header">
 		<hgroup>
-			<h1 class="site_title"><a href="index.html">乐活后台管理系统</a></h1>
+			<h1 class="site_title"><a href="index.html">后台管理系统</a></h1>
 			<h2 class="section_title"> </h2><div class="btn_view_site"><a href="http://www.medialoot.com"> </a></div>
 		</hgroup>
 	</header> <!-- end of header bar -->

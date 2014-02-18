@@ -25,8 +25,8 @@ $system = array(
 		
 		//外部文件访问地址(用来填写专用的文件服务器)
 		'PUBLIC_VISIT' => array(
-			'DOMAIN' =>	'http://'.$_SERVER['SERVER_NAME'],
-			'DIR' => '/files/lehuo/'							//项目文件目录
+			'DOMAIN' =>	'http://'.$_SERVER['SERVER_NAME'].'/',
+			'DIR' => 'files/lehuo/'							//项目文件目录
 		),
 		
 		//客户端加密、解密钥匙
@@ -45,13 +45,7 @@ $system = array(
 			'NAME'=>'lehuo_sz',
 			'PWD'=>'lehuo8001'
 		),
-				
-		//即时通讯配置
-		'OPEN_FIRE' => array (
-			'host' => $_SERVER['SERVER_NAME'],
-			'port' => '5222',
-			'prefix' => 'notice_',	//账户前缀
-		),
+
 );
 
 
