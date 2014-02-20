@@ -5,11 +5,11 @@ class JoinModel extends BaseModel {
 	
 	
 	public function get_store_info ($id) {
-		 
+
 		$data = 
-		$this->table('lh_join AS j')
-		->join('lh_file AS f ON j.store_pic=f.id')
-		->field('j.store_name,j.trade,j.estate,j.draw,j.lng,j.lat,j.address,j.store_phone,j.city,j.start_business,j.classification,j.official,j.introduce,f.file_address')
+		$this->table('app_join AS j')
+		->join('app_file AS f ON j.store_pic=f.id')
+		->field('j.*,f.file_address')
 		->where(array('j.status'=>0,'j.id'=>$id))
 		->limit('1')
 		->select();
@@ -30,9 +30,9 @@ class JoinModel extends BaseModel {
 						(SELECT file_address FROM lh_file AS f WHERE f.id=j.store_pic LIMIT 1) AS store_pic,
 						(SELECT file_address FROM lh_file AS f WHERE f.id=j.licence_pic LIMIT 1) AS licence_pic
 			FROM
-						lh_join AS j
+						app_join AS j
 		WHERE		
-						status = '1'
+						status = 1
 		");
 		parent::setTime($data);
 

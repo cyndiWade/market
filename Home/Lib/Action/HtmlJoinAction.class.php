@@ -18,7 +18,7 @@ class HtmlJoinAction extends HtmlBaseAction {
 		$Page = new Page($num,10);	//分页
 		
 		//去数据库查找对应的数据
-		$purview = $Join->field('id,store_name,trade,estate,draw,lng,lat,address,city,start_business,classification,official,store_pic')->where($map)->limit($Page->firstRow.','.$Page->listRows)->select();
+		$purview = $Join->field('*')->where($map)->limit($Page->firstRow.','.$Page->listRows)->select();
 
 		$store_ids = array();	//保存店铺图片id
 		//计算当前经纬度，与匹配到的经纬之间的距离。单位为km
@@ -62,7 +62,7 @@ class HtmlJoinAction extends HtmlBaseAction {
 		$Join = D('Join');				//店铺表
 		$City = D('City');				//店铺表
 		$FILE = D('File');				//文件表
-		$Users = D('Users');			//用户表
+
 		$id = $this->_get('id');		//指定店铺id
 		
 		if ($this->isPost()) {
@@ -83,25 +83,26 @@ class HtmlJoinAction extends HtmlBaseAction {
 			/**
 			 * 功能2、上传图片处理
 			 */
-			$store_pic = parent::upload_file($_FILES['store_pic'],1,'../'.C('UPLOAD_DIR.IMAGES'));			//上传文件名、上传文件类型、上传目录
-			$licence_pic = parent::upload_file($_FILES['licence_pic'],1,'../'.C('UPLOAD_DIR.IMAGES'));
-			if ($store_pic == false) $this->error('店铺图片不存在');
-			if ($licence_pic == false) $this->error('店铺营业执照图片不存在');
-			//店铺缩略图片类型为1
-			$FILE->type = 1;
-			$FILE->file_address = $store_pic[0]['savename'];
-			$store_pic_id = $FILE->add();		//保存到数据库
-			//营业执照图片
-			$FILE->type = 2;
-			$FILE->file_address = $licence_pic[0]['savename'];
-			$licence_pic_id = $FILE->add();
-			
+	
+// 			$store_pic = parent::upload_file($_FILES['store_pic'],1,'../'.C('UPLOAD_DIR.IMAGES'));			//上传文件名、上传文件类型、上传目录
+// 			$licence_pic = parent::upload_file($_FILES['licence_pic'],1,'../'.C('UPLOAD_DIR.IMAGES'));
+// 			if ($store_pic == false) $this->error('店铺图片不存在');
+// 			if ($licence_pic == false) $this->error('店铺营业执照图片不存在');
+// 			//店铺缩略图片类型为1
+// 			$FILE->type = 1;
+// 			$FILE->file_address = $store_pic[0]['savename'];
+// 			$store_pic_id = $FILE->add();		//保存到数据库
+// 			//营业执照图片
+// 			$FILE->type = 2;
+// 			$FILE->file_address = $licence_pic[0]['savename'];
+// 			$licence_pic_id = $FILE->add();
+	
 			//修改店铺信息
 			if (!empty($id)) {		
 				$Join->create();									//表单提交数据
 				$Join->city = $city_id;							//城市ID
-				$Join->store_pic = $store_pic_id;			//店铺图片文件id
-				$Join->licence_pic = $licence_pic_id;	//营业执照文件id
+			//	$Join->store_pic = $store_pic_id;			//店铺图片文件id
+			//	$Join->licence_pic = $licence_pic_id;	//营业执照文件id
 				$join_save = $Join->where(array('id'=>$id))->save();		//写入数据库
 				$join_save ? $this->success('修改成功') : $this->error('没有数据被修改');
 
@@ -116,18 +117,15 @@ class HtmlJoinAction extends HtmlBaseAction {
 				$Join->store_uid = 1;					//店主ID
 				$Join->city = $city_id;					//城市ID
 				$Join->time = time();						//提交时间
-				$Join->store_pic = $store_pic_id;			//店铺图片文件id
-				$Join->licence_pic = $licence_pic_id;	//营业执照文件id
+			//	$Join->store_pic = $store_pic_id;			//店铺图片文件id
+			//	$Join->licence_pic = $licence_pic_id;	//营业执照文件id
 				$Join->status = 0;
 				$join_status = $Join->add();		//写入数据库
 				
 				if ($join_status == true) {
-					//返回客户端数据
-					if (!empty($ShopKeeper_account)) {
-						$this->success('店主尚未申请账号,系统为店主申请的账号为：'.$ShopKeeper_account['account'].'，密码默认为：'.$ShopKeeper_account['pass'].'。请记录下来。');
-					} else {
-						$this->success('提交成功');
-					}
+				
+					$this->success('提交成功');
+				
 				} else {
 					$this->error('提交失败，请重新尝试');
 				}
@@ -139,7 +137,7 @@ class HtmlJoinAction extends HtmlBaseAction {
 			//数据库获取店铺数据
 			$data = $Join->get_store_info($id);
 			$store_data = $data[0];
-			
+	
 			//对应商铺表中图片id指向的图片地址
 			$store_data['city'] = $City->where(array('id'=>$store_data['city']))->getField('name');	//取得城市名
 			//组合访问地址
@@ -206,7 +204,6 @@ class HtmlJoinAction extends HtmlBaseAction {
     	if (Validate::checkNull($_POST['address'])) $this->error('地址不得为空');
     	if (Validate::checkNull($_POST['lng'])) $this->error('经度不得为空');
     	if (Validate::checkNull($_POST['lat'])) $this->error('纬度不得为空');
-    	if (Validate::checkNull($_POST['classification'])) $this->error('请选择店铺属性');
     	if (Validate::checkNull($_POST['official'])) $this->error('负责人不得为空');
     }
 }

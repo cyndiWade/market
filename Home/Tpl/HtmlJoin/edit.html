@@ -72,26 +72,18 @@
 								</volist>
 							</select>
 						</p>
-						<p><label>商业圈:</label><input type="text" name="estate" value="{$store_data.estate}" /></p>
+						<p><label>主营产品:</label><input type="text" name="shop_product" value="{$store_data.shop_product}" /></p>
+						<p><label>副营业产品:</label><input type="text" name="shop_avocation" value="{$store_data.shop_avocation}" /></p>
+						<p><label>店铺楼层:</label><input type="text" name="estate" value="{$store_data.estate}" /></p>
 						<p><label>城市:</label><input type="text" name="city" value="{$store_data.city}" placeholder="如：广州市"/></p>
 						<p><label>详细地址:</label><input type="text" name="address" value="{$store_data.address}" class="address_a" placeholder="如：上海市，普陀区，中山北路2020号" /></p>
 						<p><label>经度:</label><input type="text" name="lng" value="{$store_data.lng}" placeholder="输入详细地址，自动获取（经度）"/></p>
 						<p><label>纬度:</label><input type="text" name="lat" value="{$store_data.lat}" placeholder="输入详细地址，自动获取（纬度）"/></p>
-						<p><label>开业日期:</label><input type="text" name="start_business" value="{$store_data.start_business}" /></p>
-						<p><label>店铺属性:</label>
-							<if condition="($store_data['classification'] eq 1)">
-								<assign name="checked1" value="checked=checked" />
-							<elseif condition="($store_data['classification'] eq  2)" />
-								<assign name="checked2" value="checked=checked" />	
-							</if>
-							<input type="radio" name="classification" value="1" {$checked1}>总店　
-							<input type="radio" name="classification" value="2" {$checked2}>分店
-						</p>
 						<p><label>负责人:</label><input type="text" name="official" value="{$store_data.official}" /></p>
-						<p><label>人均消费:</label><input type="text" name="draw" value="{$store_data.draw}" /></p>		
+				<!-- 
 						<p><label>店铺图片:</label><input type="file" name="store_pic"  /></p>
 						<p><label>营业执照图片:</label><input type="file" name="licence_pic"  /></p>	
-
+-->
 						<p><label>简介-140个字</label>
 						<textarea rows="12" name="introduce">{$store_data.introduce}</textarea>
 													
